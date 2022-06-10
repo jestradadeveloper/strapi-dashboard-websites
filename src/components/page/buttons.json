@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_page_buttons",
+  "info": {
+    "displayName": "buttons",
+    "icon": "check"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "icon": {
+      "type": "string"
+    }
+  }
+}

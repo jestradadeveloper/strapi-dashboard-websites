@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_page_reconitions",
+  "info": {
+    "displayName": "reconition",
+    "icon": "award"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "logo": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_page_values",
+  "info": {
+    "displayName": "reconitions",
+    "icon": "asterisk",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "reconitions": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.reconition"
+    }
+  }
+}
