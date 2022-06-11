@@ -48,6 +48,12 @@
           "localized": true
         }
       }
+    },
+    "website": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::website.website",
+      "inversedBy": "awards"
     }
   }
 }
