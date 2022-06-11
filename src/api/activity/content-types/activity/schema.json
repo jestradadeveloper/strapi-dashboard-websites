@@ -63,24 +63,16 @@
       },
       "type": "string"
     },
-    "Location": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "type": "string"
-    },
     "activity_category": {
       "type": "relation",
       "relation": "oneToOne",
       "target": "api::activity-category.activity-category"
     },
-    "appointments": {
+    "place": {
       "type": "relation",
-      "relation": "oneToMany",
-      "target": "api::appointment.appointment",
-      "mappedBy": "activity"
+      "relation": "manyToOne",
+      "target": "api::place.place",
+      "inversedBy": "activities"
     }
   }
 }

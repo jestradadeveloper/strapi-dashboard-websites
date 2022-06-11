@@ -14,12 +14,6 @@
   "attributes": {
     "schedule": {
       "type": "datetime"
-    },
-    "activity": {
-      "type": "relation",
-      "relation": "manyToOne",
-      "target": "api::activity.activity",
-      "inversedBy": "appointments"
     }
   }
 }
