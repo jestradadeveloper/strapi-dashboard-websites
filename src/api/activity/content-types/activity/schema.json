@@ -24,14 +24,6 @@
       },
       "type": "string"
     },
-    "Date": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "type": "datetime"
-    },
     "Reservation": {
       "pluginOptions": {
         "i18n": {
