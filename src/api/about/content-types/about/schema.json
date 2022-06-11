@@ -1,10 +1,10 @@
 {
-  "kind": "singleType",
+  "kind": "collectionType",
   "collectionName": "abouts",
   "info": {
     "singularName": "about",
     "pluralName": "abouts",
-    "displayName": "about",
+    "displayName": "About",
     "description": ""
   },
   "options": {
@@ -49,6 +49,11 @@
         "page.text-block",
         "page.value"
       ]
+    },
+    "website": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::website.website"
     }
   }
 }
