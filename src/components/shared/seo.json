@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_shared_seos",
+  "info": {
+    "displayName": "Seo",
+    "icon": "address-card"
+  },
+  "options": {},
+  "attributes": {
+    "metaTitle": {
+      "type": "string",
+      "required": true
+    },
+    "metaDescription": {
+      "type": "string",
+      "required": true
+    },
+    "sharedImage": {
+      "displayName": "metaImage",
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.meta-image"
+    },
+    "indexing": {
+      "type": "boolean",
+      "default": true
+    }
+  }
+}

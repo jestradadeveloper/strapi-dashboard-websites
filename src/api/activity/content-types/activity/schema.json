@@ -33,12 +33,6 @@
       "type": "boolean",
       "default": false
     },
-    "website": {
-      "type": "relation",
-      "relation": "manyToOne",
-      "target": "api::website.website",
-      "inversedBy": "Title"
-    },
     "Gallery": {
       "type": "media",
       "multiple": true,
@@ -73,6 +67,12 @@
       "relation": "manyToOne",
       "target": "api::place.place",
       "inversedBy": "activities"
+    },
+    "website": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::website.website",
+      "inversedBy": "Activities"
     }
   }
 }

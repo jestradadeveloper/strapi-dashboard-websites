@@ -54,6 +54,16 @@
       "type": "relation",
       "relation": "oneToOne",
       "target": "api::website.website"
+    },
+    "seoArea": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "shared.seo"
     }
   }
 }

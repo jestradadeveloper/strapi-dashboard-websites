@@ -24,13 +24,13 @@
         }
       }
     },
-    "Title": {
+    "Activities": {
       "type": "relation",
       "relation": "oneToMany",
       "target": "api::activity.activity",
       "mappedBy": "website"
     },
-    "title": {
+    "Events": {
       "type": "relation",
       "relation": "oneToMany",
       "target": "api::event.event",

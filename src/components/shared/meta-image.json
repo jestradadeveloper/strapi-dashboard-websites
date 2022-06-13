@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_shared_meta_images",
+  "info": {
+    "displayName": "metaImage",
+    "icon": "photo-video"
+  },
+  "options": {},
+  "attributes": {
+    "alt": {
+      "type": "string"
+    },
+    "media": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

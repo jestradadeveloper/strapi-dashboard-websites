@@ -64,12 +64,6 @@
         }
       }
     },
-    "website": {
-      "type": "relation",
-      "relation": "manyToOne",
-      "target": "api::website.website",
-      "inversedBy": "title"
-    },
     "Description": {
       "pluginOptions": {
         "i18n": {
@@ -77,6 +71,12 @@
         }
       },
       "type": "richtext"
+    },
+    "website": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::website.website",
+      "inversedBy": "Events"
     }
   }
 }
